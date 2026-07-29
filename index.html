@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Selected content, editorial systems, behavior-change technology, AI, audio, and writing by Philip Amalong.">
   <meta name="theme-color" content="#162c3d">
-  <meta property="og:title" content="Philip Amalong | Content, Editorial Systems & Practical AI">
-  <meta property="og:description" content="Selected content leadership, writing, editorial systems, practical AI, audio and media work by Philip Amalong.">
+  <meta property="og:title" content="Philip Amalong | Content Leadership, AI Systems & Audience Growth">
+  <meta property="og:description" content="Selected content leadership, AI systems, writing, audience growth, audio and media work by Philip Amalong.">
   <meta property="og:type" content="website">
-  <title>Philip Amalong | Content, Editorial Systems & Practical AI</title>
+  <title>Philip Amalong | Content Leadership, AI Systems & Audience Growth</title>
   <style>
     :root {
       --ink: #17212a;
@@ -224,6 +224,29 @@
     .feature-points ul { margin: 0; padding-left: 1.1rem; }
     .feature-points li { margin-bottom: 13px; }
 
+    .ai-metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      margin-top: 34px;
+      border: 1px solid rgba(255,255,255,.18);
+      border-radius: var(--radius);
+      background: var(--navy);
+      overflow: hidden;
+    }
+    .ai-metric { padding: 24px 25px; border-right: 1px solid rgba(255,255,255,.14); }
+    .ai-metric:last-child { border-right: 0; }
+    .ai-metric strong { display: block; color: #f3bd60; font-family: Georgia, "Times New Roman", serif; font-size: 2rem; font-weight: 500; line-height: 1; }
+    .ai-metric span { display: block; margin-top: 8px; color: #d5e0e6; font-size: .82rem; line-height: 1.35; }
+    .tool-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin-top: 22px; }
+    .tool-card { padding: 30px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--white); box-shadow: 0 10px 30px rgba(22,44,61,.055); }
+    .tool-card .tool-label { color: var(--yolk-dark); font-size: .74rem; font-weight: 850; letter-spacing: .11em; text-transform: uppercase; }
+    .tool-card h3 { margin: 10px 0 12px; font-size: 1.45rem; }
+    .tool-card p { margin: 0 0 14px; color: var(--muted); }
+    .tool-card ul { margin: 0; padding-left: 1.1rem; }
+    .tool-card li { margin-bottom: 9px; }
+    .tool-card li:last-child { margin-bottom: 0; }
+    .tool-note { margin-top: 18px; padding: 18px 20px; border-left: 4px solid var(--yolk); background: #f7f2e7; color: var(--navy); }
+
     .writing-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 38px; }
     .writing-item {
       display: block;
@@ -275,7 +298,7 @@
       .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .stat:nth-child(2) { border-right: 0; }
       .stat:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
-      .cards, .audio-grid { grid-template-columns: 1fr 1fr; }
+      .cards, .audio-grid, .tool-grid { grid-template-columns: 1fr 1fr; }
       .closing-links { justify-content: flex-start; }
     }
     @media (max-width: 680px) {
@@ -286,10 +309,13 @@
       .nav-links { display: none; }
       .hero { padding: 68px 0 58px; }
       section { padding: 68px 0; }
-      .cards, .audio-grid, .writing-grid { grid-template-columns: 1fr; }
+      .cards, .audio-grid, .writing-grid, .tool-grid { grid-template-columns: 1fr; }
       .stats-grid { grid-template-columns: 1fr 1fr; }
       .stat { padding: 22px 19px; }
       .feature-copy, .feature-points { padding: 29px; }
+      .ai-metrics { grid-template-columns: 1fr 1fr; }
+      .ai-metric:nth-child(2) { border-right: 0; }
+      .ai-metric:nth-child(-n+2) { border-bottom: 1px solid rgba(255,255,255,.14); }
       .archive { columns: 1; }
       footer .wrap { display: block; }
     }
@@ -310,7 +336,7 @@
       <a class="wordmark" href="#top">Philip Amalong</a>
       <div class="nav-links">
         <a href="#leadership">Leadership</a>
-        <a href="#systems">AI & systems</a>
+        <a href="#systems">AI systems</a>
         <a href="#writing">Writing</a>
         <a href="#audio">Audio</a>
         <a href="#contact">Contact</a>
@@ -323,7 +349,7 @@
       <div>
         <p class="eyebrow">Selected content portfolio</p>
         <h1>Philip<br>Amalong</h1>
-        <p class="hero-title">Behavior Change Content, Editorial Systems &amp; Practical AI</p>
+        <p class="hero-title">Content Leadership, AI Systems &amp; Audience Growth</p>
         <p class="hero-note">Most of my work starts with the same question: what will help a person make the better choice when attention, motivation or energy gives way? I turn research and audience insight into clear content, then build the systems that keep the work accurate across channels.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="Philip_Amalong_Content_Portfolio.pdf">Download full portfolio</a>
@@ -363,7 +389,7 @@
           <ul class="clean-list">
             <li>Set editorial direction across the blog, newsletter, lifecycle and product copy, App Store content, social, video, partnerships and research-led campaigns.</li>
             <li>Hired and managed staff, writers, creators, contractors and agencies, while building the briefs, calendar and review process behind the work.</li>
-            <li>Created and produced <a href="https://freedom.to/blog/category/freedom-matters/">Freedom Matters</a>, a 60-episode series featuring more than 60 writers, researchers and thinkers.</li>
+            <li>Created and produced <a href="https://podcasts.apple.com/us/podcast/freedom-matters/id1524733320">Freedom Matters</a>, a 60-episode series featuring more than 60 writers, researchers and thinkers.</li>
             <li>Worked with product, design, engineering, customer success and analytics so content supported product use and retention as well as reach.</li>
           </ul>
         </div>
@@ -375,46 +401,65 @@
 
     <section class="alt" id="systems">
       <div class="wrap">
-        <p class="section-kicker">Editorial systems and practical AI</p>
-        <h2 class="section-title">Use technology to improve judgment, not replace it</h2>
-        <p class="section-intro">My AI work focuses on research, editorial consistency, competitive intelligence and useful product interventions. Nothing publishes autonomously.</p>
+        <p class="section-kicker">AI systems and tools</p>
+        <h2 class="section-title">A working AI content operation, not a collection of prompts</h2>
+        <p class="section-intro">I have built more than 25 tools, skills, plugins, GPTs, automated reports, scoring systems and product prototypes. They improve content quality, discoverability, competitive positioning and decision speed while keeping human judgment at the center.</p>
 
-        <div class="cards">
-          <article class="card">
-            <span class="card-number">01 / DISCOVERABILITY</span>
-            <h3>AEO Watchdog</h3>
-            <p>Tracks Freedom’s appearance in AI answers, identifies citation gaps, maps them to live content and stages specific fixes for human review.</p>
-            <div class="link-row"><a href="https://freedom.to/okf/">View Freedom’s open knowledge files</a></div>
-          </article>
-          <article class="card">
-            <span class="card-number">02 / PRODUCT CONCEPT</span>
-            <h3>Freedom Focus Coach</h3>
-            <p>Uses session context to identify what is blocking progress and help a person shrink the task instead of ending a focus session.</p>
-            <div class="no-link">Product concept and working prototype</div>
-          </article>
-          <article class="card">
-            <span class="card-number">03 / ADAPTIVE AUDIO</span>
-            <h3>Sage</h3>
-            <p>Generates low-salience focus music for the exact length of a work session, avoiding loops and sudden changes before resolving at the end.</p>
-            <div class="no-link">Internal product concept and working prototype</div>
-          </article>
+        <div class="ai-metrics" aria-label="Selected AI system scale">
+          <div class="ai-metric"><strong>25+</strong><span>AI systems, tools and prototypes shipped</span></div>
+          <div class="ai-metric"><strong>596</strong><span>live articles indexed for AEO recommendations</span></div>
+          <div class="ai-metric"><strong>151K</strong><span>signups behind the quality-scoring model</span></div>
+          <div class="ai-metric"><strong>20+</strong><span>automated competitive reports produced</span></div>
         </div>
 
-        <div class="feature">
-          <div class="feature-copy">
-            <p class="section-kicker">How the system works</p>
-            <h3>Editorial knowledge that carries into the next assignment</h3>
-            <p>Voice standards, product truth, research, decision history and lessons from past mistakes live in shared tools rather than one person’s memory.</p>
-          </div>
-          <div class="feature-points">
+        <div class="tool-grid">
+          <article class="tool-card">
+            <span class="tool-label">Editorial quality and optimization</span>
+            <h3>Skills, plugins and custom GPTs</h3>
+            <p>I turned repeated editorial judgment into reusable tools that help people produce stronger work without flattening the voice.</p>
             <ul>
-              <li><strong>Automate repeat work:</strong> scheduled reports, scoring and collection.</li>
-              <li><strong>Start with evidence:</strong> reviews, product use, cohort data and named sources.</li>
-              <li><strong>Keep review visible:</strong> stage drafts, decide deliberately and measure after publication.</li>
-              <li><strong>Turn mistakes into rules:</strong> corrected failures become documented guardrails.</li>
+              <li><strong>Humanize skill</strong> and the <strong>freedom-humanizer</strong> plugin, built from real editing passes and a detailed taxonomy of AI writing failures.</li>
+              <li><strong>freedom-content</strong> plugin and custom GPTs for research, citation checks, AEO structure, FAQs, schema, internal linking and technical publishing.</li>
+              <li><strong>Content Scan</strong> and an optimization playbook that turn search data into ranked content updates and substantive rewrites.</li>
             </ul>
-          </div>
+          </article>
+
+          <article class="tool-card">
+            <span class="tool-label">AEO and agent-readable content</span>
+            <h3>AEO Watchdog, OKF and llms.txt</h3>
+            <p>AEO Watchdog tracks where Freedom appears in AI answers, diagnoses why competitors earn citations and stages a specific fix against an existing page.</p>
+            <ul>
+              <li>Measures visibility across ChatGPT, Gemini, Perplexity, Google AI Overviews and Claude.</li>
+              <li>Matches gaps to a live inventory of 596 posts, including headings and schema state.</li>
+              <li>Supports a production OKF knowledge bundle with 39 concepts and an apex-level llms.txt file.</li>
+            </ul>
+            <p class="link-row"><a href="https://freedom.to/okf/">View Freedom’s open knowledge files</a></p>
+          </article>
+
+          <article class="tool-card">
+            <span class="tool-label">Competitive intelligence and scoring</span>
+            <h3>Automated reports that end in action</h3>
+            <p>The systems collect the evidence, apply rules learned from earlier mistakes and deliver an artifact the team can use immediately.</p>
+            <ul>
+              <li>A weekly competitive report combining Appfigures, Ahrefs, Google News, Meta Ads and Reddit.</li>
+              <li>A signup-quality scoring system using 16 signals, a 118-point model and four observed conversion bands.</li>
+              <li>Automated activation and winback lists, plus review mining and ASO analysis across 6,141 reviews.</li>
+            </ul>
+          </article>
+
+          <article class="tool-card">
+            <span class="tool-label">Product and creative prototypes</span>
+            <h3>AI used at the moment it can help</h3>
+            <p>I also build product and creative concepts, not only back-office workflows.</p>
+            <ul>
+              <li><strong>Freedom Focus Coach</strong> uses session context to diagnose friction and shrink a task instead of letting the user quit.</li>
+              <li><strong>Sage</strong> generates low-salience focus music in real time for the exact length of a work session. It is mentioned here without linking to internal documentation.</li>
+              <li>A Veo animation skill, AI ad-production workflows and six hackathon concepts spanning content, ASO, landing pages and adaptive audio.</li>
+            </ul>
+          </article>
         </div>
+
+        <div class="tool-note"><strong>The operating principle:</strong> automate repeat work, make product truth and voice reusable, keep the review loop visible and turn corrected mistakes into permanent rules.</div>
       </div>
     </section>
 
@@ -492,12 +537,12 @@
         <div class="cards">
           <article class="card">
             <span class="card-number">PODCAST</span>
-            <h3><a href="https://freedom.to/blog/category/freedom-matters/">Freedom Matters</a></h3>
+            <h3><a href="https://podcasts.apple.com/us/podcast/freedom-matters/id1524733320">Freedom Matters</a></h3>
             <p>Created and produced 60 episodes, including guest development, interviews, editing, original theme music and episode scoring.</p>
           </article>
           <article class="card">
             <span class="card-number">BROADCAST</span>
-            <h3><a href="https://www.sonarkmedia.com/live-from-the-barn">Sonark Sessions: Live from the Barn</a></h3>
+            <h3><a href="https://www.pbs.org/show/sonark-sessions/">Sonark Sessions: Live from the Barn</a></h3>
             <p>Co-producer of a public-television performance series, covering booking, artist relationships, partner management and delivery.</p>
           </article>
           <article class="card">
